@@ -1,0 +1,75 @@
+body{
+    background: url(img/city.jpg) center center fixed;
+    background-size: cover;
+}
+.contactForm{
+    border: 1px solid black;
+    margin-top: 50px;
+    border-radius: 15px;
+    font-family: Gill Sans, sans-serif;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: relative;
+    margin: 50px auto 10px auto;
+    
+}
+
+.container-fluid{
+    width: 1000px;
+    height: auto;
+    position: absolute;
+}
+
+.contactForm h1{
+    padding: 5px;
+}
+
+#message{
+    resize: vertical;
+}
+
+#submit{
+    margin-bottom: 20px;
+}
+
+
+/*Styling for devices between 480px and 768px*/
+@media (min-width: 480px) and (max-width: 768px){
+.contactForm{
+   
+    margin-top: 50px;
+    position: relative;
+    margin: 50px auto 10px auto;
+}
+
+.container-fluid{
+    width: 1000px;
+    height: auto;
+    position: absolute;
+}
+
+.contactForm h1{
+    padding: 5px;
+}
+
+#message{
+    resize: vertical;
+}
+
+.submit{
+    margin-bottom: 20px;
+}
+
+}
+
+
+
+
+/*Styling for devices under 480px */
+@media (min-width: 480px){
+    
+    .contactForm{
+    width: 400px;
+    
+}
+    
+}
