@@ -3,18 +3,14 @@ body{
     background-size: cover;
 }
 
-.contactForm{
-    border: 1px solid black;
-    margin-top: 50px;
-    border-radius: 15px;
-    font-family: Gill Sans, sans-serif;
-    background-color: rgba(255, 255, 255, 0.5);   
-}
-
 .container-fluid{
-    width: 1000px;
+    width: 500px;
     height: auto;
     margin: 100px auto;
+    border: 1px solid black;
+    border-radius: 15px;
+    font-family: Gill Sans, sans-serif;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .contactForm h1{
